@@ -6,31 +6,12 @@ html, head, body {
 
 body {
     padding: 25px;
-    background-color: lightgray;
-    color: black;
-}
-  
-.dark-mode {
     background-color: #303336;
-    color: white;
-}
-
-.dark-mode a {
-    color: red;
+    color: #EBEBEB;
 }
 
 div {
     max-width: 100%;
-}
-
-#button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#credits {
-    font-size: x-small;
 }
 
 h1 {
@@ -41,7 +22,7 @@ h1 {
     font-size: 300%;
 }
 
-p {
+p, h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -51,7 +32,7 @@ p {
 
 .links {
     text-decoration: none;
-    color: blue;
+    color: #aca7cb;
 }
 
 .dark {
@@ -60,4 +41,15 @@ p {
 
 img {
     padding: 5px 5px 5px 5px;
+}
+
+.bottomtext{
+	font-family: 'Montserrat', sans-serif;
+	color: #EBEBEB;
+    text-align: center;
+    font-size: x-small;
+}
+.bottomtext a{
+	color: #aca7cb;
+	text-decoration: none;
 }
